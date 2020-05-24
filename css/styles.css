@@ -6,18 +6,42 @@
     text-transform: uppercase;
 }
 
+.loading {
+    margin: 100px 0px;
+}
+
 .master-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.person {
+}
+
+.person-image {
+    border-radius: 100%;
+}
+.person-text {
+    margin-left: 10px;
+    display: inline;
+    vertical-align: middle;
 }
 
 .box {
     flex: 1;
     border: solid 1px #aaa;
     min-height: 150px;
+    padding: 15px;
 }
 
 .right-space {
     margin-right: 15px;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
