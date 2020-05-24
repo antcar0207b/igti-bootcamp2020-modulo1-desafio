@@ -1,0 +1,23 @@
+.center {
+    text-align: center;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.master-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    border: solid 1px #aaa;
+    min-height: 150px;
+}
+
+.right-space {
+    margin-right: 15px;
+}
