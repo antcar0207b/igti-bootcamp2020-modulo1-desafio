@@ -16,9 +16,15 @@
     justify-content: space-between;
 }
 .person {
+    border: solid 1px #ddd;
+    border-radius: 25px;
+    height: 60px;
+    line-height: 50px;
+    margin-bottom: 5px;
 }
 
 .person-image {
+    vertical-align: middle;
     border-radius: 100%;
 }
 .person-text {
