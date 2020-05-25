@@ -63,6 +63,7 @@ function search() {
 }
 
 function replaceSpecialCharacters(texto) {
+    /*
     texto = texto.replace('ã', 'a'); 
     texto = texto.replace('á', 'a'); 
     texto = texto.replace('é', 'e');
@@ -70,7 +71,7 @@ function replaceSpecialCharacters(texto) {
     texto = texto.replace('ó', 'o');
     texto = texto.replace('ô', 'o');
     texto = texto.replace('ú', 'u');
-
+    */
     return texto;
 }
 
@@ -111,6 +112,7 @@ function calculateStatistics(subgroup) {
     $('female').replaceChild(document.createTextNode(female), $('female').firstChild);
     $('age-sum').replaceChild(document.createTextNode(ageSum), $('age-sum').firstChild);
     $('age-average').replaceChild(document.createTextNode(('' + ageAverage.toFixed(2).replace('.', ','))), $('age-average').firstChild);
+    $('count-users').replaceChild(document.createTextNode(subgroup.length), $('count-users').firstChild);
 }
 
 function retrievedData() {
